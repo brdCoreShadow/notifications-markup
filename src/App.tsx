@@ -26,7 +26,7 @@ const App: React.FC = () => {
               <SC.Login>Mark Webber</SC.Login> reacted to your recent post{" "}
               <SC.Event>My first tournament today!</SC.Event>
             </SC.Content>
-            <p>1m ago</p>
+            <SC.Time>1m ago</SC.Time>
             <div></div>
           </div>
         </SC.EventsItem>
@@ -38,7 +38,7 @@ const App: React.FC = () => {
             <SC.Content>
               <SC.Login>Angela Gray</SC.Login> folowed you
             </SC.Content>
-            <p>5m ago</p>
+            <SC.Time>5m ago</SC.Time>
             <div></div>
           </div>
         </SC.EventsItem>
@@ -50,7 +50,7 @@ const App: React.FC = () => {
             <SC.Content>
               <SC.Login>Jacob Thompson</SC.Login> has joined your group <SC.Event>Chess Club</SC.Event>
             </SC.Content>
-            <p>1 day ago</p>
+            <SC.Time>1 day ago</SC.Time>
             <div></div>
           </div>
         </SC.EventsItem>

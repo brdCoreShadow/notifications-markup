@@ -101,6 +101,20 @@ font-size: 14px;
 font-weight: 500;
 
 color:#5E6778;
+
+&::after{
+    display: inline-block;
+    content: "";
+
+    width: 8px;
+    height: 8px;
+
+    margin-left: 8px;
+
+    background-color: #FF3333;
+
+    border-radius: 50%;
+}
 `
 
 export const Login = styled.span`
@@ -115,4 +129,11 @@ font-size: 14px;
 font-weight: 700;
 
 color:#5E6778;
+`
+
+export const Time = styled.p`
+font-size: 14px;
+font-weight: 500;
+
+color: rgba(147, 156, 173, 0.7)
 `
