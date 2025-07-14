@@ -48,4 +48,16 @@ export const HeaderBtn = styled.button`
   color: #5e6778;
 
   background-color: transparent;
+
+  transition: color 0.3s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #0a327b;
+
+    cursor: pointer;
+
+    transition: color 0.3s;
+  }
 `;

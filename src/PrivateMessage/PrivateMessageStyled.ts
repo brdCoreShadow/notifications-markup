@@ -39,12 +39,37 @@ export const MsgCon = styled.div`
   padding-left: 16px;
   padding-right: 16px;
 
+  text-align: left;
+
   border: 1px solid #dde7ee;
+
+  @media (min-width: 1280px) {
+    width: auto;
+
+    margin-left: 84px;
+
+    transition: all 0.3s;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #E5EFFA;
+
+      cursor: pointer;
+
+      transition: all 0.3s;
+    }
+  }
 
   & > p {
     font-size: 14px;
     font-weight: 500;
 
     color: #5e6778;
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+      font-weight: 500;
+    }
   }
 `;
